@@ -1,0 +1,23 @@
+#carousel {
+	width: 400px;
+	height: 273px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.slides {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 2000px;
+	height: 273px;
+}
+
+.singleSlide {
+	list-style-type: none;
+	float: left;
+	width: 400px;
+	height: 273px;
+}
+
+
