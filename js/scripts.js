@@ -19,20 +19,20 @@ $(function() {
 });
 
 
-// carousel controls right & left
+// // carousel controls right & left
 
-var arrowLeft = $(".glyphicon-menu-left"),
-	arrowRight = $("glyphicon-menu-right");
-
-
-function goToNextSlide() {
-	carouselList.animate({'marginLeft':800}, 500);
-	}
-
-function goToPreviousSlide() {
-	carouselList.animate({'marginRight':800}, 500);
-}
+// var arrowLeft = $(".glyphicon-menu-left"),
+// 	arrowRight = $("glyphicon-menu-right");
 
 
-$(arrowLeft).on("click", goToNextSlide);
-$(arrowRight).on("click", goToPreviousSlide);
+// function goToNextSlide() {
+// 	carouselList.animate({'marginLeft':800}, 500);
+// 	}
+
+// function goToPreviousSlide() {
+// 	carouselList.animate({'marginRight':800}, 500);
+// }
+
+
+// $(arrowLeft).on("click", goToNextSlide);
+// $(arrowRight).on("click", goToPreviousSlide);
