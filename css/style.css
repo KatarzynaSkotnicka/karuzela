@@ -1,3 +1,4 @@
+ 
 #carousel {
 	width: 400px;
 	height: 273px;
@@ -21,3 +22,36 @@
 }
 
 
+
+[class*="col-"] {
+ 	float: left;
+ 	height: 273px;
+ 	padding: 15px;
+ }
+
+
+.arrow-container {
+ 	text-align: center;
+ 	font-size: 28px;
+ 	color: #B56755;
+ 	position: relative;
+ 	top: 129px;
+ }
+
+.glyphicon {
+	cursor: pointer;
+}
+
+.glyphicon-menu-right {
+ 	position: relative;
+ 	right: 100px;
+ 	 }
+
+.glyphicon-menu-left {
+ 	position: relative;
+ 	left: 100px;
+ }
+
+ .indicators {
+ 	text-align: center;
+ }
